@@ -3,6 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "homepage": "",
+  "engines": {
+    "node": "16.20.2"
+  },
   "dependencies": {
     "axios": "^0.21.1",
     "chart.js": "^3.9.1",
