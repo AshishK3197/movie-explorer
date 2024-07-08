@@ -1,39 +1,37 @@
-# React Movie App - ReactJS Projects
+# Movie and TV Series Search Application
 
-![](movie.gif)
+This is a web application built with React.js that allows users to search for movies and TV series, view their details, and explore various visualizations and statistics related to movie data.
 
-### Demo - Deployed over Github Pages 
-https://ayushkul.github.io/react-movie-app
+## Features
 
-### Full development Tutorial 
-[Youtube Tutorial - The Indian Dev](https://www.youtube.com/watch?v=_UXycMmVYj0)
+- Search for movies and TV series
+- View details such as title, year, genre, rating, and poster
+- Explore charts and visualizations:
+    - Average movie ratings by genre
+    - Number of movies released per year
+    - Most popular directors based on the number of movies
 
-### APIs Used
-[The Open Movie Database APIs](http://www.omdbapi.com/)
+## Technologies Used
 
-Generate API key from : http://www.omdbapi.com/apikey.aspx
+- React.js
+- Axios
+- Chart.js
+- OMDb API
 
-### API Info
-* Method: `GET`
-* Search URL: `https://www.omdbapi.com/?s={MOVIE_NAME}&apikey={API_KEY}`
-* Movie Details URL: `https://www.omdbapi.com/?i={MOVIE_ID}&apikey={API_KEY}`
+## Getting Started
 
-### Icons & Font -
-* Icons: [ayushkul/react-movie-app](https://github.com/ayushkul/react-movie-app/tree/main/public/)
-* Font Link: `<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">`
+1. Clone the repository
+2. Install dependencies for the backend and frontend:
+    - `cd react-movie-app`
+    - `npm install`
+3. Start the  development server:
+    - `npm start`
+4. Open your browser and navigate to `http://localhost:3000`
 
-### Libraries used
-* `styled-components`
-* `axios`
-* `react-scripts`
+## Contributing
 
-### Whom do I talk to? ###
+Contributions are welcome! Please open an issue or submit a pull request.
 
-* AyushK : [The Indian Dev](https://www.instagram.com/theindiandev)
+## License
 
-### How can I appreciate this repo? ###
-
-* By giving this repo a 🌟
-* By Subscribing : [The Indian Dev](https://www.youtube.com/channel/UCbaR6YYn5VGXrR5_f-4tNsA) at Youtube
-* By Following : [The Indian Dev](https://www.instagram.com/theindiandev) at Instagram
-
+This project is licensed under the [MIT License](LICENSE).
