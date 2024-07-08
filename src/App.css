@@ -36,3 +36,80 @@
     transform: rotate(360deg);
   }
 }
+
+
+/* App.css */
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  font-size: 25px;
+  font-weight: bold;
+  box-shadow: 0 3px 6px 0 #555;
+}
+
+.app-name {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.search-box {
+  display: flex;
+  flex-direction: row;
+  padding: 10px 10px;
+  border-radius: 6px;
+  margin-left: 20px;
+  width: 50%;
+  background-color: white;
+}
+
+.search-icon {
+  width: 32px;
+  height: 32px;
+}
+
+.movie-image {
+  width: 48px;
+  height: 48px;
+  margin: 15px;
+}
+
+.search-input {
+  color: black;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  outline: none;
+  margin-left: 15px;
+}
+
+.movie-list-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 30px;
+  gap: 25px;
+  justify-content: space-evenly;
+}
+
+.placeholder {
+  width: 120px;
+  height: 120px;
+  margin: 150px;
+  opacity: 0.5;
+}
+
+.select-option {
+  margin-right: 20px;
+}
+

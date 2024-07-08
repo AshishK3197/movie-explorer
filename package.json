@@ -2,12 +2,15 @@
   "name": "react-movie-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://ayushkul.github.io/react-movie-app",
+  "homepage": "",
   "dependencies": {
     "axios": "^0.21.1",
+    "chart.js": "^3.9.1",
     "gh-pages": "^3.2.3",
     "react": "^17.0.2",
+    "react-chartjs-2": "^3.3.0",
     "react-dom": "^17.0.2",
+    "react-router-dom": "^6.23.1",
     "react-scripts": "4.0.3",
     "styled-components": "^5.3.0"
   },
@@ -36,5 +39,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.18.6"
   }
 }

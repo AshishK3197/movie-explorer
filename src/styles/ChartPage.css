@@ -1,0 +1,25 @@
+.chart-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start; /* Align items to start of the container */
+    height: 100vh;
+    width: 100%;
+    padding: 20px; /* Add some padding if needed */
+    box-sizing: border-box; /* Ensure padding is included in the total width and height */
+}
+
+.select-option {
+    font-size: 16px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 50%;
+    text-align: center;
+}
+
+.chart-content {
+    width: 100%; /* Ensure the chart takes full width */
+    max-width: 1200px; /* Optional: set a max-width for better readability on large screens */
+}
