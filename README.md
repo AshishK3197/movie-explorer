@@ -28,6 +28,10 @@ This is a web application built with React.js that allows users to search for mo
     - `npm start`
 4. Open your browser and navigate to `http://localhost:3000`
 
+## Note
+
+This project requires to create a .env file from the given .env.example. It will contain the api key for the OMDB API. 
+
 ## Contributing
 
 Contributions are welcome! Please open an issue or submit a pull request.
