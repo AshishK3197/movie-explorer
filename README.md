@@ -2,6 +2,8 @@
 
 This is a web application built with React.js that allows users to search for movies and TV series, view their details, and explore various visualizations and statistics related to movie data.
 
+### Checkout the deployed app here:- https://movie-explorer-dun-nu.vercel.app/
+
 ## Features
 
 - Search for movies and TV series
