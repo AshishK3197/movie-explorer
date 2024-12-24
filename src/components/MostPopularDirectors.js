@@ -7,7 +7,7 @@ import {API_KEY} from "../App";
 const MostPopularDirectors = () => {
     const [directorsData, setDirectorsData] = useState({});
 
-    const apiKey = API_KEY; // Replace with your OMDb API key
+    const apiKey = API_KEY;
 
     useEffect(() => {
         const fetchDirectorsData = async () => {
