@@ -52,7 +52,6 @@ const MovieRatings = () => {
                 console.error('Error fetching data:', error);
             }
         };
-
         fetchGenreData();
     }, [apiKey]);
 
